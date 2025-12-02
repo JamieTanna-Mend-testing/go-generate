@@ -8,4 +8,5 @@ const (
 	Ibuprofen
 	Paracetamol
 	Acetaminophen = Paracetamol
+	VitaminA
 )
