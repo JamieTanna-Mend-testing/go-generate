@@ -27,7 +27,7 @@ let config = {
 		'goGenerate',
 	],
 
-	allowedUnsafeExecution: [
+	allowedUnsafeExecutions: [
 		'goGenerate',
 	],
 }
