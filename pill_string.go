@@ -12,11 +12,12 @@ func _() {
 	_ = x[Aspirin-1]
 	_ = x[Ibuprofen-2]
 	_ = x[Paracetamol-3]
+	_ = x[VitaminA-4]
 }
 
-const _Pill_name = "PlaceboAspirinIbuprofenParacetamol"
+const _Pill_name = "PlaceboAspirinIbuprofenParacetamolVitaminA"
 
-var _Pill_index = [...]uint8{0, 7, 14, 23, 34}
+var _Pill_index = [...]uint8{0, 7, 14, 23, 34, 42}
 
 func (i Pill) String() string {
 	idx := int(i) - 0
