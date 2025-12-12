@@ -7,6 +7,6 @@ const (
 	Aspirin
 	Ibuprofen
 	Paracetamol
-	Acetaminophen = Paracetamol
 	VitaminA
+	Acetaminophen = Paracetamol
 )
