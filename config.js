@@ -24,6 +24,7 @@ let config = {
 	],
 
 	postUpdateOptions: [
+		'gomodTidy',
 		'goGenerate',
 	],
 
